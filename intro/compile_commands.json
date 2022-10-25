@@ -1,0 +1,189 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpcli.o",
+      "daytimetcpcli.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpcli1.o",
+      "daytimetcpcli1.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli1.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli1.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpcli2.o",
+      "daytimetcpcli2.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli2.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpcli3.o",
+      "daytimetcpcli3.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli3.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpcli3.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpsrv.o",
+      "daytimetcpsrv.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpsrv1.o",
+      "daytimetcpsrv1.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv1.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv1.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpsrv2.o",
+      "daytimetcpsrv2.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv2.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv2.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpsrv3.o",
+      "daytimetcpsrv3.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv3.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrv3.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpcliv6.o",
+      "daytimetcpcliv6.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpcliv6.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpcliv6.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "daytimetcpsrvv6.o",
+      "daytimetcpsrvv6.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrvv6.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/daytimetcpsrvv6.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I../lib",
+      "-g",
+      "-O2",
+      "-D_REENTRANT",
+      "-Wall",
+      "-c",
+      "-o",
+      "byteorder.o",
+      "byteorder.c"
+    ],
+    "directory": "/home/ubuntu/github/unpv13e/intro",
+    "file": "/home/ubuntu/github/unpv13e/intro/byteorder.c",
+    "output": "/home/ubuntu/github/unpv13e/intro/byteorder.o"
+  }
+]

@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv) {
     int                sockfd = 0;
-    ssize_t n = 0;
+    ssize_t            n      = 0;
     char               recvline[MAXLINE + 1];
     struct sockaddr_in servaddr;
 
@@ -24,6 +24,11 @@ int main(int argc, char **argv) {
     if (connect(sockfd, (SA *)&servaddr, sizeof(servaddr)) < 0) {
         err_sys("connect error");
     }
+    struct sockaddr_in cliaddr;
+    socklen_t          len = sizeof(cliaddr);
+    getsockname(sockfd, (SA *)&cliaddr, &len);
+    printf("connection local ip is %s, local port is %d\n",
+           sock_ntop((SA *)&cliaddr, len), ntohs(cliaddr.sin_port));
 
     int count = 0;
     while ((n = read(sockfd, recvline, MAXLINE)) > 0) {

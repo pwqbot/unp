@@ -24,6 +24,7 @@ int main(int argc, char **argv) {
     x = 30;
     memcpy(&stdData, &x, sizeof(stdData));
     printf("%d, %d, %d , %d\n", stdData.a, stdData.b, stdData.c, stdData.d);
+    printf("%d -> %d, %d -> %d\n",1, htons(1), 128, htons(128));
 
     printf("%s: ", CPU_VENDOR_OS);
     if (sizeof(short) == 2) {

@@ -1,12 +1,10 @@
-#include	"unp.h"
+#include "unp.h"
 
-void
-sig_chld(int signo)
-{
-	pid_t	pid;
-	int		stat;
+void sig_chld(int signo) {
+    pid_t pid  = 0;
+    int   stat = 0;
 
-	while ( (pid = waitpid(-1, &stat, WNOHANG)) > 0)
-		printf("child %d terminated\n", pid);
-	return;
+    while ((pid = waitpid(-1, &stat, WNOHANG)) > 0) {
+        printf("child %d terminated\n", pid);
+    }
 }

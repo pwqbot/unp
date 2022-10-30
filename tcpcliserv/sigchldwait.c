@@ -1,12 +1,7 @@
-#include	"unp.h"
+#include "unp.h"
 
-void
-sig_chld(int signo)
-{
-	pid_t	pid;
-	int		stat;
-
-	pid = wait(&stat);
-	printf("child %d terminated\n", pid);
-	return;
+void sig_chld(int signo) {
+    int   stat = 0;
+    pid_t pid  = wait(&stat);
+    printf("child %d terminated\n", pid);
 }
